@@ -15,7 +15,7 @@ if you're on Lion (OS X 10.7).
 
 Run the script:
 
-    bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
+    bash < <(curl -s https://raw.github.com/zerdliu/laptop/master/mac)
 
 What it sets up
 ---------------
@@ -34,7 +34,8 @@ What it sets up
 * Rails gem (for writing web applications)
 * Heroku gem (for interacting with the Heroku API)
 * Taps gem (for pushing and pulling SQL databases between environments)
-* Postgres gem (for making Ruby talk to SQL databases)
+* Sqlite gem (for making Ruby talk to SQL databases)
+* MysQl gem (for making Ruby talk to SQL databases)
 * Foreman gem (for serving your Rails app locally)
 * Git Remote Branch gem (for faster git branch creation and deletion)
 * Heroku accounts plugin (for using multiple Heroku accounts like a client's account)
