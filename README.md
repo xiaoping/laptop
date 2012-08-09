@@ -11,11 +11,11 @@ Before you run this script, you need compilers like GCC, LLVM, and Clang.
 Get them via [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/)
 if you're on Snow Leopard (OS X 10.6) or
 [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action)
-if you're on Lion (OS X 10.7).
+if you're on Lion (OS X 10.7 or above) .
 
 Run the script:
 
-    bash < <(curl -s https://raw.github.com/zerdliu/laptop/master/mac)
+    bash < <(curl -s https://raw.github.com/xiaoping/laptop/master/mac)
 
 What it sets up
 ---------------
@@ -29,7 +29,7 @@ What it sets up
 * Redis (for storing key-value data)
 * ImageMagick (for cropping and resizing images)
 * RVM (for managing versions of the Ruby programming language)
-* Ruby language (for writing general-purpose code)
+* Ruby language 1.9.3 (for writing general-purpose code)
 * Bundler gem (for managing Ruby libraries)
 * Rails gem (for writing web applications)
 * Heroku gem (for interacting with the Heroku API)
